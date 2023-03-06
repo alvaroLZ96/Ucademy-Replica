@@ -1,0 +1,212 @@
+.modal{
+   width: 480px;
+   height: 611px; 
+   background-color: #FFFFFF;
+   box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-family: 'Poppins-Regular';
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.modalPt1{
+
+}
+.modalPt2{
+    padding:16px;
+    display: flex;
+    justify-content: end;
+    gap:10px;
+}
+.headerPopup{
+    display: flex;
+    justify-content: space-between;
+    padding:16px;
+}
+.btnsRight{
+    display: flex;
+    gap: 8px;
+}
+.btnsLeft{
+    display: flex;
+    gap: 8px;
+}
+.cursosBtn:focus{
+    text-decoration: underline 5px#0ABB87;
+}
+.cursosBtn{
+    background-color: transparent;
+    border:none;
+    font-family: 'Poppins-Regular';
+    font-weight: 600;
+    font-size: 13px;
+    color: #262D34;
+}
+.cursosBtn:hover{
+    text-decoration: underline 5px#0ABB87;
+    cursor: pointer;   
+}
+.cancelarediciónBtn{
+    border: 1px solid #262D34;
+     box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+    border-radius: 8px;
+    width: 152px;
+    height: 32px;
+    font-family: 'Poppins-Regular';
+    font-size: 14px;
+    background-color: transparent;
+}
+.closeBtn{
+    border: 1px solid #262D34;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+    border-radius: 8px;
+    width: 77px;
+    height: 32px;
+    font-family: 'Poppins-Regular';
+    font-size: 14px;
+    background-color: transparent;
+}
+.guardarBtn{
+    height: 32px;
+    width: 91px;
+    background: #262D34;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+    border-radius: 8px;
+    font-family: 'Poppins-Regular';
+    font-size: 14px;
+    color:white;
+    padding:5px, 16px, 5px, 16px
+}
+.editBtn{
+    width: 150px;
+    height: 30px;
+    background: #262D34;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+    border-radius: 8px;
+    font-family: 'Poppins-Regular';
+    font-size: 14px;
+    color:white;
+    padding:5px, 16px, 5px, 16px
+}
+.contentPopup{
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+    gap:14px;
+    padding: 25px 40px
+}
+.contentPopup span{
+    font-size:11px;
+}
+.contentPopup input{
+    margin-top: 5px;
+    width: 100%;
+    border: 1px solid #C9C9C9;
+    border-radius: 5px;
+    Height:30px
+}
+.toTheLimit{
+    width:100% ;
+}
+.nombreyapellidos{
+    display: flex;
+    gap:10px
+}
+/* CURSOS POPUP */
+
+.cursosDiv{
+    height: fit-content;
+    display: flex;
+    gap:2rem;
+    flex-direction: column;
+    background-color: white;
+    font-family: 'Montserrat-normal';
+}
+
+.cursosDiv div{
+    display: flex;
+    flex-direction: column;
+}
+.cursosDiv p{
+    font-family: "Montserrat-bold";
+    font-size: 15px;
+    font-weight: 500;
+}
+.cursosDiv span{
+    font-size:10px;
+    font-family: 'Montserrat-light';
+}
+.cursosDiv progress{
+    background: #F0F4F3;
+    border-radius: 10px;
+    width: 100%;
+}
+
+/* INFO USER */
+.infoDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1.5rem;
+    font-family: 'Montserrat-normal';
+
+}
+.imgDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.namesDiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:0.5rem
+}
+.namesDiv img{
+    width: 18px;
+}
+.namefields{
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    width: 352px;
+    border-bottom: 1px solid #CDCDCD;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.dataTitle{
+    font-family: "Montserrat-bold";
+     font-weight: 600; 
+    font-size: 11px; 
+}
+.dataAnswer{
+    padding-top: 3px;
+    font-size: 14px;
+    font-family:"Montserrat-normal";
+    font-Weight: 400;
+    font-size:14px;
+
+}
+.fullnameText{
+    width: 100%;
+}
+.nameContainer{
+    border-bottom: 1px solid #CDCDCD;
+    display: flex;
+    gap: 0.2rem;
+    flex-direction: column;
+    padding-bottom: 10px;
+    margin-bottom: 10px; 
+}
+.date{
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    width: 100%;
+    padding-top: 10px; 
+} 
+.fixGuardarBtn{
+    transform: translate(365%, -1265%);
+}

@@ -1,0 +1,98 @@
+{
+  "courses": [],
+  "students": [
+    {
+      "fullname": "Andrés Calamaro",
+      "username": "user1",
+      "email": "nomellamesnola@gmail.com",
+      "phone": "688523367",
+      "id": 1
+    },
+    {
+      "fullname": "Rosa Melindres",
+      "username": "user2",
+      "email": "nomellamestarde@hotmail.com",
+      "phone": "677852014",
+      "id": 2
+    },
+    {
+      "fullname": "Sergi LLlull",
+      "username": "user3",
+      "email": "nomellamesalfijo@outlook.es",
+      "phone": "677853360",
+      "id": 3
+    },
+    {
+      "fullname": "Dani Pedrosa",
+      "username": "user4",
+      "email": "nomellamesnunca@gmail.com",
+      "phone": "688563300",
+      "id": 4
+    },
+    {
+      "fullname": "Jane Fonda",
+      "username": "user5",
+      "email": "dontcallmebaby@gmail.com",
+      "phone": "688965520",
+      "id": 5
+    },
+    {
+      "fullname": "Ana Lorza",
+      "username": "user6",
+      "email": "nomellamesquenoteveo@hotmail.com",
+      "phone": "688523698",
+      "id": 6
+    },
+    {
+      "fullname": "fran tico",
+      "username": "de los santos",
+      "email": "folslsvmlsv@gmail.com",
+      "phone": "9899+96558",
+      "id": "3fa11de1-94b8-4710-8835-439172b4c404"
+    }
+  ],
+  "teachers": [
+    {
+      "fullname": "Frodo Bolsón",
+      "username": "user7",
+      "email": "elanillopacuando@hotmail.com",
+      "phone": "633335520",
+      "id": 1
+    },
+    {
+      "fullname": "Quentin Taranto",
+      "username": "user8",
+      "email": "lasangreesdementira@gmail.com",
+      "phone": "666999874",
+      "id": 2
+    },
+    {
+      "fullname": "Maikel Jordán",
+      "username": "user9",
+      "email": "niunpelodetonto@hotmail.com",
+      "phone": "633021478",
+      "id": 3
+    },
+    {
+      "fullname": "Alice Wonder",
+      "username": "user10",
+      "email": "soytureguetoneradeconfi@yahoo.es",
+      "phone": "637895522",
+      "id": 4
+    },
+    {
+      "fullname": "Pablo Clavo",
+      "username": "user11",
+      "email": "unclavitochiquitito@gmail.com",
+      "phone": "663312789",
+      "id": 5
+    },
+    {
+      "fullname": "Juan José Padilla",
+      "username": "user12",
+      "email": "afeitatelabarbilla@gamil.com",
+      "phone": "6999852367",
+      "id": 6
+    }
+  ]
+}

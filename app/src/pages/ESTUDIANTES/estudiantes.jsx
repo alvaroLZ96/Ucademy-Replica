@@ -1,15 +1,9 @@
 import "./styles.css";
-
 import { createContext, useContext, useEffect, useState } from "react";
 import React from "react";
-
-/* import { HiOutlinePlusCircle } from "react-icons/hi"; */
-/* import info from "../../assets/info.svg"; */
 import NewUser from "../../components/MODAL/createUser/createamember";
 import ModalInfo from "../../components/MODAL/InfoUser/modalInfo";
-/* import PopupModal from "../../components/popup"; */
 import GlobalContext from "../../context/GlobalContext";
-/* import UserCard from "../../components/userCard"; */
 import { getData } from "../../services/API.JS";
 
 const Estudiantes = () => {

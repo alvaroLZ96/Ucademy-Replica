@@ -22,22 +22,18 @@ const Navbar = () => {
               <p>Dashboard</p>
             </div>
           </NavLink>
-          {/*  <NavLink to="/miacademia" style={{ textDecoration: "none" }}> */}
+
           <div
             className="miacademiaDiv mainDivsNav"
-            // onClick={() => setSubcategories(!subcategories)}
             onClick={toggleMenu}
             style={{ cursor: "pointer" }}
           >
             <img src={studentsLogo} alt="students Logo" />
             <p>Mi Academia</p>
           </div>
-          {/* </NavLink> */}
+
           {subcategories && (
-            <div
-              className="subscademia"
-              // className={`menuNav ${subcategories ? " subscademia" : ""}`}
-            >
+            <div className="subscademia">
               <NavLink to={`/dashboard`}>
                 <p className="subscademia1">Editar Academia</p>
               </NavLink>

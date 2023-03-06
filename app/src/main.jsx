@@ -18,8 +18,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="/dashboard" element={<App />}>
-            {/*   <Route path="dashboard" element={<Dashboard />} />
-          <Route path="miacademia" element={<MiAcademia />} /> */}
             <Route path="miacademia/estudiantes" element={<Estudiantes />} />
             <Route path="miacademia/profesores" element={<Profesores />} />
             <Route path="cursos" element={<Profesores />} />

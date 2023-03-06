@@ -29,7 +29,7 @@ const NewUser = () => {
       phone: phone,
       id: uuidv4(),
     };
-    /*  setUser({ NewUser }); */
+
     console.log(newUser);
     postData("students", newUser);
 
